@@ -7,7 +7,7 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
-const basename = '/My-Portfolio'; // Replace with your GitHub repository name
+const basename = '/My-Portfolio'; // Replace with your GitHub repository name/////////////
 
 function App() {
   return (
