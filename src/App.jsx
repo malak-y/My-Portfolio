@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -8,9 +7,11 @@ import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 
+const basename = '/My-Portfolio'; // Replace with your GitHub repository name
+
 function App() {
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen bg-[#F8EDE3]">
         <Header />
         <Routes>
