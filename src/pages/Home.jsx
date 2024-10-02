@@ -112,7 +112,7 @@ const Home = () => {
               Hire Me
             </motion.a>
             <motion.a
-              href="https://drive.google.com/file/d/1MD4yMi98Q8mn55GcfnzsjW0dUgBY2N9V/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ytStby2cTxH3KlW_yFY1mDHd8og01N6o/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn bg-[#F8EDE3] text-[#C5705D] py-3 px-6 rounded-lg font-semibold border border-[#982B1C] hover:bg-[#D0B8A8] transition-transform"
