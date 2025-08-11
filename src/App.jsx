@@ -12,7 +12,7 @@ const basename = '/My-Portfolio'; // Replace with your GitHub repository name///
 function App() {
   return (
     <Router basename={basename}>
-      <div className="min-h-screen bg-[#F8EDE3]">
+      <div className="min-h-screen bg-[#F9FAFB]">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
