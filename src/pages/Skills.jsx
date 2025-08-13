@@ -28,7 +28,7 @@ const Skills = () => {
     <section className="skills min-h-screen py-20 mt-16" id="skills">
       <div className="container mx-auto px-6 text-center">
         <motion.h2
-          className="text-3xl font-extrabold mb-16"
+          className="text-5xl font-bold mb-16"
           style={{ color: '#63264A' }}
           initial={{ opacity: 0, y: -20 }}
           animate={controls}
