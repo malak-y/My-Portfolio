@@ -1,7 +1,7 @@
 const Portfolio = () => {
   return (
     <section id="portfolio" className="min-h-screen py-20">
-      <div className="container mx-auto px-4  pt-20">
+      <div className="container mx-auto px-4  pt-10">
         <div className="text-center mb-16" data-aos="fade-down">
           <h2 className="text-5xl font-bold text-[#63264A] mb-4">
             My <span className="text-[#BFA3B9]">Creative</span> Works
@@ -86,11 +86,10 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
-          {/* Flight Booking Website */}
 <div className="group relative overflow-hidden rounded-2xl shadow-2xl transition-all duration-500 hover:shadow-[0_20px_50px_rgba(99,38,74,0.3)]">
   <div className="h-64 overflow-hidden">
     <img
-      src="assets/flight-booking.png"         // <- replace with your screenshot path
+      src="assets/flight-booking.png"       
       alt="Flight Booking Website"
       className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
     />

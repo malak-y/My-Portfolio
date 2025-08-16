@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <section
-      className="relative flex items-center justify-center min-h-screen py-16"
+      className="relative flex items-center justify-center min-h-screen pt-32 pb-16 md:pt-16"
       id="contact"
     >
       <div className="container mx-auto px-6 relative z-10">
